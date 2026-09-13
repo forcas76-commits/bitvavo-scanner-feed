@@ -1,6 +1,6 @@
 {
   "scanner": "Bitvavo Early-Move Detector v6",
-  "feed_created": "2026-09-13T23:30:58",
+  "feed_created": "2026-09-13T23:31:01",
   "latest_scan": "2026-09-13 23:30:49",
   "portfolio": [
     {
@@ -67,6 +67,21 @@
   "early": [],
   "pre_early": [
     {
+      "market": "ESP-EUR",
+      "status": "PRE-EARLY",
+      "score": 8,
+      "price": 0.075865,
+      "move_5m_pct": -0.1487,
+      "move_15m_pct": 1.4062,
+      "move_1h_pct": 4.1329,
+      "move_2h_pct": 6.4309,
+      "volume_ratio": 0.0383,
+      "turnover_24h_eur": 164342.57,
+      "liquidity": "MIDDEL",
+      "range_position": 0.8186,
+      "promotion_reason": "liquide"
+    },
+    {
       "market": "CNPY-EUR",
       "status": "PRE-EARLY",
       "score": 7,
@@ -94,6 +109,36 @@
       "turnover_24h_eur": 230166.73,
       "liquidity": "MIDDEL",
       "range_position": 1.0,
+      "promotion_reason": "liquide"
+    },
+    {
+      "market": "ETHFI-EUR",
+      "status": "PRE-EARLY",
+      "score": 6,
+      "price": 0.56506,
+      "move_5m_pct": 0.5248,
+      "move_15m_pct": 0.8513,
+      "move_1h_pct": 1.8548,
+      "move_2h_pct": 1.4124,
+      "volume_ratio": 0.3352,
+      "turnover_24h_eur": 557070.23,
+      "liquidity": "MIDDEL",
+      "range_position": 1.0,
+      "promotion_reason": "liquide"
+    },
+    {
+      "market": "JUP-EUR",
+      "status": "PRE-EARLY",
+      "score": 6,
+      "price": 0.20214,
+      "move_5m_pct": 0.3724,
+      "move_15m_pct": 0.6172,
+      "move_1h_pct": -0.3402,
+      "move_2h_pct": 0.0099,
+      "volume_ratio": 15.2682,
+      "turnover_24h_eur": 155436.3,
+      "liquidity": "MIDDEL",
+      "range_position": 0.9953,
       "promotion_reason": "liquide"
     }
   ],
@@ -284,8 +329,8 @@
   "counts": {
     "portfolio": 4,
     "early": 0,
-    "pre_early": 2,
-    "watch": 24,
+    "pre_early": 5,
+    "watch": 31,
     "downtrend": 2
   }
 }
