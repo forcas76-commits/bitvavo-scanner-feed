@@ -1,7 +1,7 @@
 {
   "scanner": "Bitvavo Early-Move Detector v6",
-  "feed_created": "2026-09-13T23:27:56",
-  "latest_scan": "2026-09-13 23:27:46",
+  "feed_created": "2026-09-13T23:29:14",
+  "latest_scan": "2026-09-13 23:29:02",
   "portfolio": [
     {
       "market": "EIGEN-EUR",
@@ -28,7 +28,7 @@
       "move_1h_pct": 0.2395,
       "move_2h_pct": 0.3137,
       "volume_ratio": 1.8301,
-      "turnover_24h_eur": 11589987.13,
+      "turnover_24h_eur": 11579736.93,
       "liquidity": "HOOG",
       "range_position": 0.7995,
       "promotion_reason": "liquide,portefeuille"
@@ -75,10 +75,10 @@
       "move_1h_pct": 0.7595,
       "move_2h_pct": 4.175,
       "volume_ratio": 4.9828,
-      "turnover_24h_eur": 364796.15,
+      "turnover_24h_eur": 364681.38,
       "liquidity": "MIDDEL",
       "range_position": 0.9617,
-      "promotion_reason": "liquide,prijsversnelling"
+      "promotion_reason": "liquide"
     },
     {
       "market": "REZ-EUR",
@@ -90,24 +90,9 @@
       "move_1h_pct": 5.0292,
       "move_2h_pct": -3.8916,
       "volume_ratio": 1.4316,
-      "turnover_24h_eur": 2804853.85,
+      "turnover_24h_eur": 2797663.18,
       "liquidity": "HOOG",
       "range_position": 0.9478,
-      "promotion_reason": "liquide,prijsversnelling"
-    },
-    {
-      "market": "RAY-EUR",
-      "status": "EARLY",
-      "score": 9,
-      "price": 1.2815,
-      "move_5m_pct": 0.6646,
-      "move_15m_pct": 1.0982,
-      "move_1h_pct": 1.8713,
-      "move_2h_pct": 2.4561,
-      "volume_ratio": 2.1267,
-      "turnover_24h_eur": 728966.94,
-      "liquidity": "MIDDEL",
-      "range_position": 0.9964,
       "promotion_reason": "liquide"
     }
   ],
@@ -137,7 +122,7 @@
       "move_1h_pct": 3.9792,
       "move_2h_pct": 6.8617,
       "volume_ratio": 1.9992,
-      "turnover_24h_eur": 197663.33,
+      "turnover_24h_eur": 198255.45,
       "liquidity": "MIDDEL",
       "range_position": 0.6926,
       "promotion_reason": "liquide"
@@ -152,10 +137,25 @@
       "move_1h_pct": 4.3508,
       "move_2h_pct": 3.6182,
       "volume_ratio": 1.24,
-      "turnover_24h_eur": 1144497.76,
+      "turnover_24h_eur": 1144635.84,
       "liquidity": "HOOG",
       "range_position": 0.2894,
-      "promotion_reason": "liquide,prijsversnelling"
+      "promotion_reason": "liquide"
+    },
+    {
+      "market": "ETHFI-EUR",
+      "status": "PRE-EARLY",
+      "score": 6,
+      "price": 0.56506,
+      "move_5m_pct": 0.5248,
+      "move_15m_pct": 0.8513,
+      "move_1h_pct": 1.8548,
+      "move_2h_pct": 1.4124,
+      "volume_ratio": 0.3352,
+      "turnover_24h_eur": 557070.23,
+      "liquidity": "MIDDEL",
+      "range_position": 1.0,
+      "promotion_reason": "liquide"
     },
     {
       "market": "BNB-EUR",
@@ -168,21 +168,6 @@
       "move_2h_pct": 0.0273,
       "volume_ratio": 25.8813,
       "turnover_24h_eur": 263869.05,
-      "liquidity": "MIDDEL",
-      "range_position": 1.0,
-      "promotion_reason": "liquide"
-    },
-    {
-      "market": "API3-EUR",
-      "status": "PRE-EARLY",
-      "score": 6,
-      "price": 0.2125,
-      "move_5m_pct": 0.2217,
-      "move_15m_pct": 0.5632,
-      "move_1h_pct": -0.6545,
-      "move_2h_pct": -0.2066,
-      "volume_ratio": 5.6549,
-      "turnover_24h_eur": 230166.73,
       "liquidity": "MIDDEL",
       "range_position": 1.0,
       "promotion_reason": "liquide"
@@ -203,37 +188,22 @@
       "promotion_reason": "liquide"
     },
     {
-      "market": "ETHFI-EUR",
+      "market": "API3-EUR",
       "status": "PRE-EARLY",
       "score": 6,
-      "price": 0.56506,
-      "move_5m_pct": 0.5248,
-      "move_15m_pct": 0.8513,
-      "move_1h_pct": 1.8548,
-      "move_2h_pct": 1.4124,
-      "volume_ratio": 0.3352,
-      "turnover_24h_eur": 557070.23,
+      "price": 0.2125,
+      "move_5m_pct": 0.2217,
+      "move_15m_pct": 0.5632,
+      "move_1h_pct": -0.6545,
+      "move_2h_pct": -0.2066,
+      "volume_ratio": 5.6549,
+      "turnover_24h_eur": 230166.73,
       "liquidity": "MIDDEL",
       "range_position": 1.0,
       "promotion_reason": "liquide"
     }
   ],
   "watch": [
-    {
-      "market": "USELESS-EUR",
-      "status": "WATCH",
-      "score": 5,
-      "price": 0.197809,
-      "move_5m_pct": -0.4424,
-      "move_15m_pct": 1.1299,
-      "move_1h_pct": 2.2951,
-      "move_2h_pct": 4.0596,
-      "volume_ratio": 0.2899,
-      "turnover_24h_eur": 1777305.04,
-      "liquidity": "HOOG",
-      "range_position": 0.6752,
-      "promotion_reason": "liquide,prijsversnelling"
-    },
     {
       "market": "LSK-EUR",
       "status": "WATCH",
@@ -244,10 +214,25 @@
       "move_1h_pct": -2.2524,
       "move_2h_pct": 3.1597,
       "volume_ratio": 0.713,
-      "turnover_24h_eur": 15441620.99,
+      "turnover_24h_eur": 15446381.3,
       "liquidity": "HOOG",
       "range_position": 0.8238,
-      "promotion_reason": "liquide,prijsversnelling"
+      "promotion_reason": "liquide"
+    },
+    {
+      "market": "USELESS-EUR",
+      "status": "WATCH",
+      "score": 5,
+      "price": 0.197809,
+      "move_5m_pct": -0.4424,
+      "move_15m_pct": 1.1299,
+      "move_1h_pct": 2.2951,
+      "move_2h_pct": 4.0596,
+      "volume_ratio": 0.2899,
+      "turnover_24h_eur": 1777976.83,
+      "liquidity": "HOOG",
+      "range_position": 0.6752,
+      "promotion_reason": "liquide"
     },
     {
       "market": "VTHO-EUR",
@@ -259,7 +244,7 @@
       "move_1h_pct": -1.1339,
       "move_2h_pct": 0.3267,
       "volume_ratio": 10.1576,
-      "turnover_24h_eur": 4907501.74,
+      "turnover_24h_eur": 4908863.74,
       "liquidity": "HOOG",
       "range_position": 0.599,
       "promotion_reason": "liquide"
@@ -274,24 +259,24 @@
       "move_1h_pct": 0.1605,
       "move_2h_pct": 0.2041,
       "volume_ratio": 43.7708,
-      "turnover_24h_eur": 12923041.93,
+      "turnover_24h_eur": 12923775.1,
       "liquidity": "HOOG",
       "range_position": 0.7273,
       "promotion_reason": "liquide"
     },
     {
-      "market": "KAVA-EUR",
+      "market": "SOLV-EUR",
       "status": "WATCH",
       "score": 5,
-      "price": 0.054461,
-      "move_5m_pct": 0.4149,
-      "move_15m_pct": 1.1948,
-      "move_1h_pct": 1.4681,
-      "move_2h_pct": 0.6078,
-      "volume_ratio": 0.4647,
-      "turnover_24h_eur": 203179.47,
+      "price": 0.0045318,
+      "move_5m_pct": 0.7537,
+      "move_15m_pct": 0.6172,
+      "move_1h_pct": 1.4597,
+      "move_2h_pct": 3.3501,
+      "volume_ratio": 0.1701,
+      "turnover_24h_eur": 156132.63,
       "liquidity": "MIDDEL",
-      "range_position": 0.6863,
+      "range_position": 0.3741,
       "promotion_reason": "liquide"
     },
     {
@@ -334,9 +319,24 @@
       "move_1h_pct": 0.2725,
       "move_2h_pct": -0.1357,
       "volume_ratio": 0.0733,
-      "turnover_24h_eur": 204389.42,
+      "turnover_24h_eur": 197425.39,
       "liquidity": "MIDDEL",
       "range_position": 1.0,
+      "promotion_reason": "liquide"
+    },
+    {
+      "market": "KAVA-EUR",
+      "status": "WATCH",
+      "score": 5,
+      "price": 0.054461,
+      "move_5m_pct": 0.4149,
+      "move_15m_pct": 1.1948,
+      "move_1h_pct": 1.4681,
+      "move_2h_pct": 0.6078,
+      "volume_ratio": 0.4647,
+      "turnover_24h_eur": 203179.47,
+      "liquidity": "MIDDEL",
+      "range_position": 0.6863,
       "promotion_reason": "liquide"
     },
     {
@@ -353,39 +353,9 @@
       "liquidity": "MIDDEL",
       "range_position": 1.0,
       "promotion_reason": "liquide"
-    },
-    {
-      "market": "UNI-EUR",
-      "status": "WATCH",
-      "score": 4,
-      "price": 5.432,
-      "move_5m_pct": 0.2417,
-      "move_15m_pct": 0.2122,
-      "move_1h_pct": 1.0379,
-      "move_2h_pct": -0.6911,
-      "volume_ratio": 0.1371,
-      "turnover_24h_eur": 789851.67,
-      "liquidity": "MIDDEL",
-      "range_position": 1.0,
-      "promotion_reason": "liquide,portefeuille"
     }
   ],
   "downtrend": [
-    {
-      "market": "ACX-EUR",
-      "status": "DOWNTREND",
-      "score": -9,
-      "price": 0.033818,
-      "move_5m_pct": -0.0148,
-      "move_15m_pct": -7.4975,
-      "move_1h_pct": -5.9592,
-      "move_2h_pct": -4.1657,
-      "volume_ratio": 0.215,
-      "turnover_24h_eur": 189.89,
-      "liquidity": "ZEER LAAG",
-      "range_position": 0.0,
-      "promotion_reason": "prijsversnelling"
-    },
     {
       "market": "ARK-EUR",
       "status": "DOWNTREND",
@@ -419,9 +389,9 @@
   ],
   "counts": {
     "portfolio": 4,
-    "early": 3,
+    "early": 2,
     "pre_early": 7,
-    "watch": 34,
-    "downtrend": 3
+    "watch": 35,
+    "downtrend": 2
   }
 }
