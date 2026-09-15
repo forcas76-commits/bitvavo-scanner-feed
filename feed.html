@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bitvavo Scanner Feed</title>
+</head>
+<body>
+  <pre id="feed">Feed laden...</pre>
+
+  <script>
+    fetch("chatgpt_feed.json", { cache: "no-store" })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+        return response.json();
+      })
+      .then(data => {
+        document.getElementById("feed").textContent =
+          JSON.stringify(data, null, 2);
+      })
+      .catch(error => {
+        document.getElementById("feed").textContent =
+          "Fout bij laden feed: " + error.message;
+      });
+  </script>
+</body>
+</html>
