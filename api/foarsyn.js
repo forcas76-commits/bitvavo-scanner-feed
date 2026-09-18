@@ -1,3 +1,4 @@
+// FOARSYN server-rendered feed
 export default async function handler(req, res) {
   try {
     const cacheBuster = Date.now();
